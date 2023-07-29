@@ -1,0 +1,120 @@
+body{
+    background-image: linear-gradient(to top, rgba(0, 0, 0,0.5)50%, rgba(0, 0, 0,0.5)50%), url('../backImg/car-1.png');
+    background-size:cover ;
+    background-position: center; 
+}
+.new-game{
+    margin-top: 10px;
+    border: none;
+    padding: 15px;
+    width: 250px;
+    height: 60px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color:rgba(120, 57, 180, 0.953);
+    font-family: 'Press Start 2P', cursive;
+}
+.new-game:active {
+    transform: scale(.95) translateY(-3px);
+}
+.heart {
+    display: inline;    
+    font-size: 45px;
+
+}
+.hide {
+    position: absolute;
+    right: 30px;
+    top:10px;
+}
+.heart--1 {
+    display: none;
+}
+.heart--2{
+    display: none;
+}
+.heart--3 {
+    display: none;
+}
+.headings {
+    text-align: center;
+    font-size: 32px;
+    color: rgba(129, 3, 246, 0.953);
+    margin-top: 25px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 700;
+}
+
+.logo {
+position: absolute;
+left: 50%;
+top:40%;
+transform: translate(-50%, -50%);
+background-color: rgba(131, 30, 30, 0.768);
+
+}
+.hideLogo {
+    display: none;
+}
+.down-sec  {
+    margin-top: 320px;
+    display: flex;
+    justify-content: space-between;
+}
+.input-box {
+    margin-right: 30px;
+}
+.input {
+    padding: 12px;
+    width: 300px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.next {
+    display: block;
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 120px;
+    height: 50px;
+    margin-left: 45px;
+    border-radius: 10px;
+    font-size: 20px; 
+    background-color: black;
+    color: rgb(251, 251, 250);
+    font-weight: 700;
+}
+.next:active {
+    transform: scale(.95) translateY(-3px);
+}
+.check {
+    border: none;
+    padding: 10px;
+    width: 120px;
+    height: 50px;
+    margin-left: 45px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: black;
+    color: rgb(251, 251, 250);
+    font-weight: 700;
+}
+.c:active {
+    transform: scale(.95) translateY(-3px);
+}
+.content{
+    margin-right:20px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 700;
+}
+.display {
+    color: rgba(251, 255, 1, 0.708);
+    font-size: 20px;
+}
+.score {
+    color: rgb(14, 25, 233);
+    font-size: 20px; 
+    margin-bottom: 0; 
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Logo Game</title>
+    <link rel="stylesheet" href="styles/game.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,300&family=Press+Start+2P&family=Roboto:ital,wght@1,300;1,400&family=Ysabeau+Office:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    <button class="new-game">New Game</button>
+    <div class="hide">
+        <p class="heart heart--1">❤️</p>
+        <p class="heart heart--2">❤️</p>
+        <p class="heart heart--3">❤️</p>
+    </div>
+    <p class="headings">PRESS SHUFFLE TO START GUESSING</p>
+    <img class="logo hideLogo" src="img/logo-1.png">
+    <div class = "down-sec">
+        <div class="input-box">
+            <input class="input" type="text" placeholder="Higherlander"><br>
+            <button class="next">shuffle</button>
+            <button class="check">check!</button>
+        </div>
+        <div class = "content">
+            <p class="display">starting game...</p>
+            <p class="score">Score : <span class="scoreValue">0</span></p>
+            <p class="score">Highest Score : <span class="highScoreValue">0</span></p>
+        </div>
+        </div>
+    </div>
+    <audio src="sound/audio.mp3" id = "audio" controls style="display: none;"></audio>
+    <audio src="sound/audio1.wav" id = "audio1" controls style="display: none;"></audio>
+    <audio src="sound/audio2.wav" id = "audio2" controls style="display: none;"></audio>
+    <audio src="sound/audioclap.wav" id = "audioclap" controls style="display: none;"></audio>
+    <audio src="sound/audioCorrect.mp3" id = "audioCorrect" controls style="display: none;"></audio>
+
+    <script src="game.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+@import url('https://fonts.cdnfonts.com/css/games');
+
+body {
+  background-image: linear-gradient(to top, rgba(0, 0, 0,0.8)50%, rgba(0, 0, 0,0.8)50%), url('../backImg/cars-3.jpg');
+  background-repeat: no-repeat;
+  background-size:cover ;
+  background-attachment: fixed;
+}
+h2 {
+  font-size: 60px;
+  text-align: center;
+  color: rgb(207, 204, 21);
+  font-family: 'Games', sans-serif;
+}
+.start {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.start-game {
+  background-color: rgb(207, 35, 35);
+  font-family: 'Molisa Delawere', sans-serif;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 250px;
+  height: 60px;
+  font-size: 30px;
+}
+.start-game:active {
+    transform:  scale(.90) translateY(-3px);
+}
+.get-help {
+  background-color: rgb(200, 15, 207);
+  font-family: 'Molisa Delawere', sans-serif;
+  font-weight: 500;
+  color:rgb(10, 10, 10) ;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 250px;
+  height: 60px;
+  font-size: 30px;
+  position: absolute;
+  bottom: 10px;
+}
+.get-help:active {
+    transform:translateY(-5px);
+}
+.help-info {
+    background-color: aliceblue;
+    width: 500px;
+    font-size: 15px;
+    position: absolute;
+    bottom: 150px;
+    left: 100px;
+    border-radius: 12px;
+    padding: 8px;
+    margin-left: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    position: relative;
+}
+.hidden {
+    display: none;
+}
+.overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.85);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.headings {
+    position: relative;
+}
+.steps-help {
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  
+}
+.times {
+    margin: 0;
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 25px;
+    cursor: pointer;
+}
