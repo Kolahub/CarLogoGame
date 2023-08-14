@@ -11,6 +11,7 @@ h2 {
   text-align: center;
   color: rgb(207, 204, 21);
   font-family: 'Games', sans-serif;
+  animation: MoveInLeft 1s ease-out;
 }
 .start {
   position: absolute;
@@ -96,3 +97,18 @@ h2 {
     font-size: 25px;
     cursor: pointer;
 }
+
+@keyframes MoveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+  90% {
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+

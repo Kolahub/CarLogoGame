@@ -21,4 +21,9 @@ times.addEventListener('click' , function () {
 overlay.addEventListener('click' , function () {
     overlayFunction();
 })
+document.addEventListener('keydown',function(e) {
+   if (e.key === "Escape" && !helpInfo.classList.contains('hidden') && !overlay.classList.contains('hidden')) {
+    overlayFunction();
+   }
+} )
 

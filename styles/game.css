@@ -43,6 +43,7 @@ body{
     margin-top: 25px;
     font-family: 'Press Start 2P', cursive;
     font-weight: 700;
+    animation: MoveInRight 1s ease-out;
 }
 
 .logo {
@@ -118,3 +119,17 @@ background-color: rgba(131, 30, 30, 0.768);
     font-size: 20px; 
     margin-bottom: 0; 
 }
+
+@keyframes MoveInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(200px);
+    }
+    90% {
+      transform: translateX(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
+  }

@@ -1,4 +1,4 @@
-
+const heading = document.querySelector('.headings')
 const newGame = document.querySelector('.new-game');
 const input = document.querySelector('.input');
 const check = document.querySelector('.check');
@@ -60,7 +60,7 @@ function createArrayOfNumbers(start, end) {
 //numbersArray = createArrayOfNumbers(1,25);
 next.addEventListener('click', () => {
   if (playing) {
-    if (numbersArray.length == 0) {
+    if (numbersArray.length === 0) {
       console.log('No More Random Numbers');
       if (score === 25) {
         document.getElementById('audio').play();
@@ -145,7 +145,7 @@ check.addEventListener('click', function () {
     next.disabled = false;
     check.disabled = true;
 
-    guess = String(input.value).toLocaleLowerCase();
+    guess = String(input.value).toLowerCase();
     input.value = '';
     if (!guess) {
       display.textContent = 'Wrong! No input.';
