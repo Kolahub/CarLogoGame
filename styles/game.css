@@ -102,6 +102,7 @@ background-color: rgba(131, 30, 30, 0.768);
 
 @media (max-width:90rem) {
     height: 15rem;
+    top:50%;
 }
 
 @media (max-width:45rem) {
@@ -118,7 +119,7 @@ background-color: rgba(131, 30, 30, 0.768);
     justify-content: space-between;
 
     @media (max-width:90rem) {
-        margin-top:55rem;
+        margin-top:30rem;
     }
 
     @media (max-width:45rem) {
