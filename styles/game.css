@@ -7,7 +7,7 @@ body{
     background-position: center; 
     margin: 0;
     padding: 0;
-    height: 100vh;
+
 }
 .new-game{
     margin-top: 10px;
@@ -20,6 +20,13 @@ body{
     border-radius: 1rem;
     background-color:rgba(120, 57, 180, 0.953);
     font-family: 'Press Start 2P', cursive;
+
+    @media (max-width:90rem) {
+        padding: 1.4rem;
+        width: 20rem;
+        height: 4rem;
+        font-size: 1.5rem;
+    }
 
     @media (max-width:45rem) {
         padding: 1.2rem;
@@ -34,6 +41,11 @@ body{
 .heart {
     display: inline;    
     font-size: 4.5rem;
+
+    @media (max-width:90rem) {
+       font-size: 3rem;
+    }
+
     @media (max-width:45rem) {
         font-size: 2rem;
     }
@@ -43,9 +55,13 @@ body{
     position: absolute;
     right: 3rem;
     top:1rem;
+
+    @media (max-width:90rem) {
+        right: 2rem;
+    }
+
     @media (max-width:45rem) {
         right: 1.5rem;
-        top:1rem;
     }
 }
 .heart--1 {
@@ -66,6 +82,11 @@ body{
     font-weight: 700;
     animation: MoveInRight 1s ease-out;
 
+    @media (max-width:90rem) {
+        margin-top: 15rem;
+        font-size: 2rem;
+    }
+
     @media (max-width:45rem) {
         margin-top: 10rem;
         font-size: 1.1rem;
@@ -78,6 +99,10 @@ left: 50%;
 top:40%;
 transform: translate(-50%, -50%);
 background-color: rgba(131, 30, 30, 0.768);
+
+@media (max-width:90rem) {
+    height: 15rem;
+}
 
 @media (max-width:45rem) {
     height: 10rem;
@@ -92,6 +117,10 @@ background-color: rgba(131, 30, 30, 0.768);
     display: flex;
     justify-content: space-between;
 
+    @media (max-width:90rem) {
+        margin-top:55rem;
+    }
+
     @media (max-width:45rem) {
         margin-top: 45rem;
     }
@@ -105,6 +134,10 @@ background-color: rgba(131, 30, 30, 0.768);
     margin-bottom: 1.5rem;
     font-size: 2rem;
     border-radius: 1.5rem;
+
+    @media (max-width:90rem) {
+        width: 20rem;
+    }
 
     @media (max-width:45rem) {
         width: 15rem;
@@ -128,6 +161,11 @@ background-color: rgba(131, 30, 30, 0.768);
     color: rgb(251, 251, 250);
     font-weight: 700;
 
+    @media (max-width:90rem) {
+        width: 9rem;
+        font-size: 1.8rem;
+    }
+
     @media (max-width:45rem) {
         width: 7rem;
         font-size: 1.5rem;
@@ -148,6 +186,11 @@ background-color: rgba(131, 30, 30, 0.768);
     color: rgb(251, 251, 250);
     font-weight: 700;
 
+    @media (max-width:90rem) {
+        width: 9rem;
+        font-size: 1.8rem;
+    }
+
     @media (max-width:45rem) {
         width: 7rem;
         font-size: 1.5rem;
@@ -160,7 +203,11 @@ background-color: rgba(131, 30, 30, 0.768);
     margin-right:2rem;
     font-family: 'Press Start 2P', cursive;
     font-weight: 700;
-    font-size: 2rem; 
+    font-size: 2rem;
+    
+    @media (max-width:90rem) {
+        font-size: 1.5rem;
+    }
     @media (max-width:45rem) {
         font-size: 1rem; 
     }

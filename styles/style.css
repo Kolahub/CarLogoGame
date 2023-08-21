@@ -29,6 +29,7 @@ h2 {
 .start-game {
   background-color: rgb(207, 35, 35);
   font-family: 'Molisa Delawere', sans-serif;
+  color:rgb(10, 10, 10) ;
   border: none;
   border-radius: 1rem;
   padding: 1rem;
